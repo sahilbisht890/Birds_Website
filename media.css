@@ -1,0 +1,322 @@
+@media only screen 
+  and (max-device-width: 767px) {
+
+
+
+    html{
+        font-size: 14px;
+    }
+
+    .navbar ,.navbarThreeLine,.introSlider,.topNav,.introPlayButton,.arrivalSubtext,.notForMobile
+    ,.infoText,.introDateSecond,.introDate
+    {
+        display: none;
+    }
+    .infoOne
+    {
+        width: 15%;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+.email
+{
+    flex-direction: column;
+}
+
+    .aboutSection,.formSection,.infoOne
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+.arrivalSubtextMobile,.aboutSubtext,.reviewText,.navbarMobile
+
+{
+ display: block;    
+ font-size: 1rem;
+ text-align: justify;
+}
+
+.navbarMobile
+{
+
+    font-size: 2rem;
+    
+}
+
+.reviewText{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+.topIntroPage{
+    display: flex;
+    flex-direction: column;
+    padding:2% 5% 8% 5%;
+    background-image: none;
+    background-color: #032735;
+    height: auto;
+
+}
+.topIntroPage  > div ,.aboutSubtext,.readMore
+{
+    width: 100%;
+}
+
+.topLeftContent
+{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introMainContent > div ,.introMainContent,.introLine > div
+{
+ width: 100%;
+}
+
+.introHeading
+{
+    font-size: 3.3rem;
+}
+
+.mobileIntroPic
+{
+    margin-top: 5%;
+    display: block;
+    border-radius: 5px;
+}
+.introSubtext
+{
+    font-size: 1rem;
+}
+
+
+#birdmobile
+
+{
+    width: 75%;
+    height: 20rem;
+
+}
+#slide
+{
+    width: 30%;
+    height: 10rem;
+
+}
+
+.animalName
+{
+    font-size: 2rem;
+
+}
+
+.aboutBirds
+{
+    background-image: url(./images/rectangle_8.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:100% 100%;
+}
+
+.aboutBirds,.ourBirdAndAnimal,.birdPictureSection,.reviewSection,.subsSection
+
+{
+    padding:8% 5%;
+}
+
+.info
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.aboutBirds ,.aboutBirds > div,.reviewUser,.subscribe,.form ,.info
+{
+    width: 100%;
+}
+
+.aboutBirds .readMore
+{
+    width: 25%;
+    padding:2% 0
+}
+
+.aboutMobileBird
+{
+    display: block;
+    width: 100%;
+    height: 18rem;
+}
+
+.OurBirdAndAnimal,.subscribe
+{
+    font-size: 1.5rem;
+}
+
+.seeMore
+{
+    width: 30%;
+}
+
+.reviewUser,.review
+{
+    padding: 0;
+    margin: 0;
+}
+
+.review{
+    padding: 50% 2% 2% 2%;
+    box-shadow: 2px 3px 5px black;
+}
+.userImage {
+    left:9%;
+    top: 17%
+}
+
+.reviewBorder {
+    top: 21%;
+    left: 7%;
+    width: 144px
+  }
+  .reviewHeading
+  {
+    padding-bottom: 6%;
+  }
+
+  .reviewbottom,.map
+  {
+    padding-top: 4%;
+  }
+
+  .subscribe
+  {
+    text-align: center;
+  }
+
+  .email
+  {
+    border: none;
+  }
+
+  .subscribe
+  {
+    margin: 5% 0;
+    padding: 5% 0;
+  }
+
+  .formSection
+  {
+      width: 80%;
+  }
+
+
+  .navbarMobileContainer
+  {
+    display: block;
+
+  }
+
+
+  .navigation {
+    position: fixed;
+    left: -250px; 
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color:#1b3454;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.navigation label {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 4rem;
+
+ 
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 4rem 0;
+}
+
+.navigation ul li {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Show the navigation when checkbox is checked */
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked + .navigation {
+    left: 0;
+}
+.aboutHeading,.pictureSection
+{
+margin-bottom: 4%;
+}
+.introMainContent
+{
+    padding: 5% 0;
+}
+.threeDots {
+    width: 53px;
+    height: 11px;
+}
+.platforms .src {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.footerCopyRight
+{
+    width: 80%
+
+}
+.introHeading
+{
+    width: 80%;
+}
+
+.sliderBox {
+    width: 40%;
+    height: 40%
+}
+
+.slider img {
+    width: 30%;
+    height: 35%;
+}
+
+.reviewName{
+    margin-bottom:10px ;
+}
+
+
+}

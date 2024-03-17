@@ -1,0 +1,813 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:white;
+    border: none;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+/* making the width 100%  */
+body > div ,.introLine > div ,.introLine,.newArrivalContentContainer > div,.ArrivalContent
+
+{
+  width: 100%;
+
+}
+
+
+.topIntroPage
+{
+
+width: 100%;
+padding: 0 2% 18% 2%;
+background-image: url(./images/layer_1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+
+}
+
+.topIntroPage,.introLogo,.navbar ul,.introMainContent,.newArrivalSlider,.aboutHeading,.infoOne
+
+
+{
+    display: flex;
+    justify-content: start;
+}
+
+
+.topLeftContent,.topRightContent
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.topLeftContent
+{
+    width: 15%;
+    padding-top:2%
+}
+
+.topRightContent
+{
+    width: 85%;
+}
+
+ul{
+    list-style: none;
+    gap:3%;
+    font-size: .8rem;
+}
+
+.introMainContent{
+    clear: both;
+    width: 45%;
+    padding: 19.5% 0 0 1%
+
+}
+
+.introHeading
+{
+    font-size: 4rem;
+    line-height: 4rem;
+
+}
+.introSubtext
+{
+    font-size: .8rem;
+    text-align: justify;
+    padding:9% 0;
+}
+
+.introHeading span ,.newArrival span:first-child
+{
+  font-weight: 600;
+  color:#0cd7f7;
+
+}
+
+.logoPic
+{
+    width: 2rem;
+    height: 2rem
+}
+
+li{
+    padding: 5% 2% 2% 2%;
+}
+
+li:hover ,.intoButton button,.readMore
+{
+    background-color:#f7672c;
+    color: white;
+    cursor: pointer;
+
+}
+.logoName
+{
+    font-weight: 700;
+    padding-left: 2%;
+}
+.introLogo,.ArrivalContent,.aboutHeading
+{
+    align-items: center
+}
+
+.intoButton button
+{
+    width: 33%;
+    padding:3% 0;
+    margin-right: 4%;
+ 
+}
+
+.navbar
+{
+    width: 60%;
+
+}
+
+.introSlider
+{
+  margin-top: 17.5rem
+}
+
+.topNav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarThreeLine
+{
+    padding-top:2%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.introSlider div
+{
+width: 20%;
+ border: 2px solid #0cd7f7;
+ color: #0cd7f7;
+ text-align: center;
+ margin-bottom: 5%;
+ padding:2%
+}
+
+.introSlider div:hover,.intoButton button:hover
+{
+ border-color: white;
+ color:black; 
+ background-color: white;
+ cursor: pointer;
+
+}
+
+.introPlayButton
+{
+    display: block;
+    width: 7%;
+    height: 11%;
+    position: absolute;
+    top: 40%;
+    left: 68%
+}
+
+.playButton
+{
+    border-radius: 50%;
+
+
+}
+.playButton:hover
+{
+    border: 15px solid rgba(255, 255, 255, 0.35); /* Opaque border */
+    outline: 15px solid  rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.newArrivalContentContainer
+{
+    padding:6% 4%;
+    
+}
+
+
+.arrivalLogo
+{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.arrivalHeading,.newArrivalSlider ,.animal,.sliderBox,.sliderContainer,.heading
+
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.arrivalHeading
+{
+    
+     padding:2%;
+}
+
+.newArrival{
+    color:black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.newArrival span:last-child,.aboutMainHeading span
+{
+ color:#f7672c;
+}
+.ArrivalContent
+{
+    padding: 0 15%;
+}
+
+.arrivalSubtext,.arrivalSubtextMobile
+{
+    color:black;
+    font-size: .8rem;
+    text-align: center;
+}
+.newArrivalSlider
+{
+    justify-content: space-between;
+    padding-top:4%
+}
+
+.newArrivalSlider > div
+{
+    width: 13%;
+    height: 12rem;
+ }
+
+.animal > img{
+    width: 40%;
+
+    height: 40%;
+
+}
+
+ .animal,.sliderBox
+{
+    border: 2px solid #dbdbdb;
+    border-radius: 5px ;
+
+}
+
+
+
+.sliderBox
+{
+    width:30% ;
+    height: 30%;    
+    text-align: center;
+    border-radius: 0;
+}
+
+.slider img 
+{
+    width: 20%;
+    height: 25%;
+}
+
+.animal,.sliderContainer
+{
+    width: 100%;
+    height: 80%;
+}
+
+.animalName
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color:black;
+    padding-top:4%;
+    font-weight: 700;
+}
+
+.space{
+    width: 100%;
+    height: 20%;
+}
+
+.aboutAnimal > .animal:hover
+
+{
+    border: 2px solid #0cd7f7;
+    cursor: pointer;
+}
+
+.sliderBox:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+/* CSs for about bird section */
+
+.aboutBirds
+{
+    padding:10% 18%;
+    background-image: url('./images/red-robin-3743702_1280.png'),url('./images/rectangle_8.jpg');
+    background-repeat: no-repeat,no-repeat;
+    background-position: right 13% top 66%, left top;
+    background-size: 37% 71%, 100% 100%;
+}
+
+.aboutMainHeading
+{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.aboutSubtext
+{
+    width: 55%;
+    font-size: .8rem;
+    padding:4% 0 8% 0;
+}
+
+.readMore
+{
+    width: 16%;
+    text-align: center;
+    padding:1% 0;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.readMore:hover{
+    color:black;
+    background-color: white;
+}
+
+.ourBirdAndAnimal
+{
+    padding:5% 20% 3% 20%;
+}
+
+.ourBirdAndAnimal .arrivalSubtext
+{
+ padding-top: 3%;
+ line-height: 1.5rem;
+
+}
+
+.birdPictureSection
+{
+    padding:5% 20%;
+    background-color: #eeeeee;
+}
+
+.pictureSection,.bottomRight{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bottomRight
+{
+    margin: 1% 0% 0% 0%;
+}
+
+.topRight
+{
+    margin: 0% 0% 3% 0%;
+}
+
+.leftPictureSection,.subPartRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightPictureSection
+{
+    margin: 0% 0% 0% 3%;
+
+}
+.subPartRight
+{
+    margin: 0% 0% 0% 4%;
+}
+
+.birdOne
+{
+    margin: 0% 0% 8% 0%;
+
+}
+
+.topSubpartRight
+{
+    margin: 0% 0% 8% 0%;
+
+}
+.birdImage {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .birdImage img {
+    display: block;
+    width: 100%;
+  }
+  
+  .birdImage .overlay-content {
+    display: none; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+  }
+  
+  .birdImage:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5); 
+    z-index: 1;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .birdImage:hover .overlay-content {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .search-icon,
+  .heart-icon {
+    margin: 0 10px; 
+    color: white;
+    cursor: pointer; 
+    display: inline-block; 
+    border-radius: 50%;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    color:#f7672c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-search
+  {
+    color: #f7672c;
+  }
+  
+  .heart-icon:hover{
+    background-color: #f7672c;
+    color:white
+  }
+
+  .search-icon:hover{
+    background-color:black;
+  }
+
+  .seeMorePicture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10% 0 0 0;
+    
+  }
+
+  .seeMore:hover{
+    border: 1px solid black;
+  }
+
+  .reviewSection
+  { 
+    background-image: url('./images/flock-of-bird-png-pic-bac.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding:6% 0 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .reviewUser
+  {
+    width: 80%;
+    padding:0 7% 0 12%;
+  }
+
+  .review
+  {
+    background-color:#222222;
+    padding:4% 0 4% 18%;
+    margin: 7% 0;
+  }
+  .fa-quote-left
+  {
+    color: white;
+    margin-right: 5px;
+
+  }
+
+  .reviewName
+  {
+    font-size: 1.2rem;
+  }
+
+  .reviewText
+  {
+    font-size: .8rem;
+    line-height: 30px;
+    color: #b4b4b4;
+  }
+
+  .userImage
+  {
+    width: 9rem;
+    height: 11rem;
+    position: absolute;
+    left: 17%;
+    top: 31%;
+    z-index: 1;
+
+  }
+
+  .reviewHeading
+  {
+    width: 100%;
+
+  }
+
+  .reviewBorder{
+    width: 163px;
+    height: 10.1rem;
+    background-color: #f7672c;
+    z-index: 0;
+    position: absolute;
+    top: 35%;
+    left: 16.2%;
+
+  }
+
+  .threeDots
+  {
+    width: 6rem;
+    height: 1rem;
+  }
+  .reviewbottom
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .RightQuote
+   {
+    text-align: right;
+    padding-right: 5%;
+   }
+
+   .rightQuote
+   {
+    width: 26px;
+    height: 23px;
+   }
+
+   .contentSubs
+   {
+    text-align: left;
+   }
+   .email
+   {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b4b4b4;
+    padding-bottom: 10px;
+   }
+
+   .subsSection
+   {
+    background-color: #011213;
+    padding: 8% 18%;
+   }
+
+   input[type="email"]
+   {
+    color: #b4b4b4;
+    background-color: #011213;
+    width: 70%;
+   }
+   .subscribe
+   {
+    width: 25%;
+   }
+
+   .topContentCallback
+   {
+    padding:5% 0 4% 0
+   }
+
+   .map
+   {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding:10% 0 2% 0;
+    background-image: url('./images/flock-of-bird-png-pic-bac.png'),url('./images/maps.png');
+    background-repeat: no-repeat,no-repeat;
+    background-size:  100% 100%,100% 100%;
+   }
+
+   .formSection
+   {
+    
+    width: 40%;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 20px rgba(0, 0, 0, 0.0001);
+
+   }
+
+
+
+   .form form
+   {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .form input 
+   {
+    background-color: white;
+    margin: 4% 0;
+    border-bottom: 1px solid #f7672c;
+    width: 100%;
+
+   }
+
+   .infoText
+   {
+    color: black;
+    font-size: .7rem;
+    width: 77%;
+ 
+   }
+
+   .info
+   {
+    width: 35%;
+    padding:10% 0;
+   }
+
+
+   .infoLogo
+   {
+    width: 12px;
+    height: 17px;
+    margin-right: 20px;
+   }
+
+   .envelope
+   {
+    width: 17px;
+    height: 12px;
+   }
+
+
+   .form
+   {
+    width: 65%;
+   }
+
+   .formSection
+   {
+    display: flex;
+   }
+   .formSection .readMore
+   {
+    width: 35%;
+    height: 30px;
+    margin-top: 1rem;
+   }
+
+   .callbackSection
+  {
+    background-image: url('./images/flock-of-bird-png-pic-bac.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  } 
+
+  .infoOne{
+    margin-bottom: 4%;
+  }
+
+  .formSection .readMore:hover{
+   border: 1px solid black;
+  }
+
+  .footer
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    background-color: #011213;
+  }
+
+   .socialMedia
+  {
+    display: flex;
+
+  } 
+
+  .platforms .src 
+  {
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    cursor: pointer;
+
+  }
+
+  .footerCopyRight
+  {
+    text-align: center;
+    width: 38%;
+    margin-top:2%;
+    font-size: .7rem;
+    border-top: 1px solid #b4b4b4;
+    padding-top:25px
+  }
+
+  .navbarMobile,.mobileIntroPic,.arrivalSubtextMobile,.aboutMobileBird,.navbarMobileContainer
+
+  {
+    display: none;
+  }
+
+  .introDate
+
+  {
+    position: absolute;
+    bottom: 51px;
+    left: 32px;
+    line-height: 14px;
+    letter-spacing: 2px;
+  }
+
+  .introDateSecond{
+    position: absolute;
+    top: 140px;
+    right: 72px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+  }
+
+  .introDateSecond > pre
+{
+  color: #a89898;
+}
